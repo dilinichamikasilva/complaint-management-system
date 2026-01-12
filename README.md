@@ -8,28 +8,28 @@ This system allows employees to submit complaints and admins to manage them effi
 
 ## 👥 Roles:
 
-⭐Employee: Can register, log in, submit complaints, update profile, and view their complaint history.
+⭐Employee: Can register, log in, submit complaints, update profile, and view their complaint history.  
 
 ⭐Admin: Can view all complaints from all users, update complaint statuses (Pending → In Progress → Resolved), and delete complaints.
 
 ✨ Key Features:
 
-💡User authentication and registration with validation
-💡Role-based access control
-💡CRUD operations for complaints
-💡Status upate (Admin only)
-💡Account/profile management
-💡Responsive UI with Bootstrap
-💡Session handling and logout functionality
-💡Timestamps 
+💡User authentication and registration with validation  
+💡Role-based access control  
+💡CRUD operations for complaints    
+💡Status upate (Admin only)  
+💡Account/profile management  
+💡Responsive UI with Bootstrap  
+💡Session handling and logout functionality  
+💡Timestamps   
 
 
 ## ⚙️ Setup and Configuration Guide
 
-💻Java JDK 21
-💻Apache Tomcat 9+
-💻MySQL 8+
-💻Maven 
+💻Java JDK 21  
+💻Apache Tomcat 9+  
+💻MySQL 8+  
+💻Maven   
 
 ## 📂 Steps:
 
@@ -53,19 +53,19 @@ Create a database named cms
 
 ## 📁 Project Structure
 
-📁complaint-management-system/
-│
-├──📁 src/
-│   ├── 📁controller/       # Servlets (Signin, Complaint, Dashboard, etc.)
-│   ├── 📁dao/              # Database access layer 
-│   ├── 📁model/            # JavaBeans for User, Complain
-│   └── 📁db/               # DBConnection (connection pool via DBCP)
-│
-├──📁 web/
-│   ├── 📁view/             # JSP pages (index.jsp, dashboard.jsp, complaint.jsp, etc.)           
-│   └── 📁WEB-INF/          # web.xml configuration
-│
-├── 📁README.md
-└── 📁schema.sql
+📁complaint-management-system/  
+│  
+├──📁 src/    
+│   ├── 📁controller/       # Servlets (Signin, Complaint, Dashboard, etc.)  
+│   ├── 📁dao/              # Database access layer   
+│   ├── 📁model/            # JavaBeans for User, Complain  
+│   └── 📁db/               # DBConnection (connection pool via DBCP)  
+│  
+├──📁 web/  
+│   ├── 📁view/             # JSP pages (index.jsp, dashboard.jsp, complaint.jsp, etc.)               
+│   └── 📁WEB-INF/          # web.xml configuration  
+│  
+├── 📁README.md  
+└── 📁schema.sql  
 
 
